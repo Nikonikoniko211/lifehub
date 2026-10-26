@@ -1,59 +1,63 @@
-# Frontend
+# Frontend do LifeHub
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli)
+versão 19.2.27.
 
-## Development server
+## Servidor de desenvolvimento
 
-To start a local development server, run:
+Para iniciar o servidor de desenvolvimento, execute:
 
-```bash
-ng serve
+```powershell
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Com o servidor em execução, acesse `http://localhost:4200/` no navegador. A
+aplicação será atualizada automaticamente quando os arquivos de origem forem
+alterados.
 
-## Code scaffolding
+## Geração de código
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+O Angular CLI oferece ferramentas para gerar componentes e outros elementos.
+Para criar um componente, execute:
 
-```bash
-ng generate component component-name
+```powershell
+npx ng generate component nome-do-componente
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Para consultar a lista completa de opções, como componentes, diretivas e pipes,
+execute:
 
-```bash
-ng generate --help
+```powershell
+npx ng generate --help
 ```
 
-## Building
+## Compilação
 
-To build the project run:
+Para compilar a aplicação, execute:
 
-```bash
-ng build
+```powershell
+npm run build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Os arquivos gerados serão armazenados na pasta `dist/`. Por padrão, a
+compilação de produção otimiza a aplicação para desempenho.
 
-## Running unit tests
+## Testes unitários
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Para executar os testes unitários com o [Karma](https://karma-runner.github.io),
+execute:
 
-```bash
-ng test
+```powershell
+npm test
 ```
 
-## Running end-to-end tests
+## Testes de ponta a ponta
 
-For end-to-end (e2e) testing, run:
+O Angular CLI não inclui uma ferramenta de testes de ponta a ponta (e2e) por
+padrão. Configure uma ferramenta de sua preferência antes de adicionar esse
+tipo de teste ao projeto.
 
-```bash
-ng e2e
-```
+## Recursos adicionais
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Para saber mais sobre o Angular CLI e consultar sua referência de comandos,
+acesse a [documentação do Angular CLI](https://angular.dev/tools/cli).
